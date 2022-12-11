@@ -1,10 +1,8 @@
-#include <stdlib.h>
 #include <stdio.h>
 
 /**
- * main - main block
- * Description: print numbers 
- * Return: 0
+ * main - prints all integers from 0 to 1
+ * Return: Always 0
  */
 int main(void)
 {
@@ -12,6 +10,8 @@ int main(void)
 
 	for (num = 0; num < 10; num++)
 		printf("%d", num);
+
 	printf("\n");
+
 	return (0);
 }

@@ -6,22 +6,22 @@
  */
 int main(void)
 {
-	int ones = '0';
-	int tens = '0';
-	int hundreds = '0';
+	int o = '0';
+	int t = '0';
+	int h = '0';
 
-	for (hundreds = 0; hundreds <= '9'; hundreds++)
+	for (h = 0; h <= '9'; h++)
 	{
-		for (tens = '0'; tens <= '9'; tens++)
+		for (t = '0'; t <= '9'; t++)
 		{
-			for (ones = '0'; ones <= '9'; ones++)
+			for (o = '0'; o <= '9'; o++)
 			{
-				if (!((ones == tens) || (tens == hundreds) || (tens > ones) || (hundreds > tens)))
+				if (!((o == t) || (t == h) || (t > o) || (h > t)))
 				{
-					putchar(hundreds);
-					putchar(tens);
-					putchar(ones);
-					if (!(ones == '9' && tens == '8' && hundreds == '7'))
+					putchar(h);
+					putchar(t);
+					putchar(o);
+					if (!(o == '9' && t == '8' && h == '7'))
 					{
 						putchar(',');
 						putchar(' ');

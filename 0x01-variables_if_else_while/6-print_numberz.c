@@ -1,18 +1,18 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - main block
- * Description: print numbers 
+ * Description: prints numbers
  * Return: 0
  */
 int main(void)
 {
-	char n = '0';
+	int c = 0;
 
-	while (n < 10)
+	while (c < 10)
 	{
-		putchar(n);
-		n++;
+		putchar(48 + c);
+		c++;
 	}
 
 	putchar('\n');

@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-	char ones;
-	char tens;
+	int ones = '0';
+	int tens = '0';
 
 	for (tens = '0'; tens <= '9'; tens++)
 	{

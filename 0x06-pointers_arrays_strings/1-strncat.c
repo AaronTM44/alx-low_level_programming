@@ -2,7 +2,7 @@
 
 /**
  * _strncat - join two strings using n bytes
- * @dest: copy to 
+ * @dest: copy to
  * @src: source
  * @n: number of char to be copied
  * Return: dest

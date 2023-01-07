@@ -4,7 +4,7 @@
 #include <string.h>
 
 /**
- * chech_num - check for an integer
+ * check_num - check for an integer
  * @str: array str
  * Return: 0
  */
